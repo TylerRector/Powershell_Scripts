@@ -1,16 +1,7 @@
 # PowerShell Automation Scripts
 
 ## Overview
-Collection of PowerShell scripts for batch printing Microsoft Office files and organizing imaging data by channel.
-
----
-
-## Requirements
-
-- Windows OS  
-- PowerShell 5+  
-- Microsoft Word (for DOCX script)  
-- Microsoft PowerPoint (for PPTX script)  
+Collection of PowerShell scripts for batch printing Microsoft Office files and organizing imaging data by LASX channel.
 
 ---
 
