@@ -7,7 +7,7 @@ Collection of PowerShell scripts for batch printing Microsoft Office files and o
 
 ## Scripts
 
-### 1. DOCX Script
+### DOCX Script
 Prints all `.docx` files in a specified folder using Microsoft Word COM automation.
 
 **Usage:**
@@ -16,7 +16,7 @@ Prints all `.docx` files in a specified folder using Microsoft Word COM automati
 
 ---
 
-### 2. PPTX Script
+### PPTX Script
 Prints all `.pptx` files in a specified folder using PowerPoint COM automation.
 
 **Usage:**
@@ -25,7 +25,7 @@ Prints all `.pptx` files in a specified folder using PowerPoint COM automation.
 
 ---
 
-### 3. Improved Multi File Script
+### Improved Multi File Script
 Processes experiment folders using pattern matching.
 
 **Configuration:**
