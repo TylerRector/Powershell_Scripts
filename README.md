@@ -1,61 +1,45 @@
-\documentclass[11pt]{article}
-\usepackage[margin=1in]{geometry}
-\usepackage{hyperref}
-\usepackage{titlesec}
+# PowerShell Automation Scripts
 
-\title{PowerShell Automation Scripts}
-\date{}
-
-\begin{document}
-
-\maketitle
-
-\section*{Overview}
+## Overview
 Collection of PowerShell scripts for batch printing Microsoft Office files and organizing imaging data by channel.
 
-\section*{Requirements}
-\begin{itemize}
-    \item Windows OS
-    \item PowerShell 5+
-    \item Microsoft Word (for DOCX script)
-    \item Microsoft PowerPoint (for PPTX script)
-\end{itemize}
+---
 
-\section*{Scripts}
+## Requirements
 
-\subsection*{1. DOCX Script}
-Prints all \texttt{.docx} files in a specified folder using Microsoft Word COM automation.
+- Windows OS  
+- PowerShell 5+  
+- Microsoft Word (for DOCX script)  
+- Microsoft PowerPoint (for PPTX script)  
 
-\textbf{Usage:}
-\begin{itemize}
-    \item Set \texttt{\$folderPath} to target directory
-    \item Runs silent (Word hidden by default)
-\end{itemize}
+---
 
-\subsection*{2. PPTX Script}
-Prints all \texttt{.pptx} files in a specified folder using PowerPoint COM automation.
+## Scripts
 
-\textbf{Usage:}
-\begin{itemize}
-    \item Set \texttt{\$folderPath}
-    \item PowerPoint runs visible by default
-\end{itemize}
+### 1. DOCX Script
+Prints all `.docx` files in a specified folder using Microsoft Word COM automation.
 
-\subsection*{3. Improved Multi File Script}
+**Usage:**
+- Set `$folderPath` to target directory  
+- Runs silently (Word hidden by default)  
+
+---
+
+### 2. PPTX Script
+Prints all `.pptx` files in a specified folder using PowerPoint COM automation.
+
+**Usage:**
+- Set `$folderPath`  
+- PowerPoint runs visible by default  
+
+---
+
+### 3. Improved Multi File Script
 Processes experiment folders using pattern matching.
 
-\textbf{Configuration:}
-\begin{itemize}
-    \item \texttt{\$root} $\rightarrow$ root directory
-    \item \texttt{\$folderNamePattern} $\rightarrow$ regex for target folders
-    \item \texttt{\$channelPattern} $\rightarrow$ regex for channel IDs
-\end{itemize}
+**Configuration:**
+- `$root` → root directory  
+- `$folderNamePattern` → regex for target folders  
+- `$channelPattern` → regex for channel IDs  
 
-\section*{Notes}
-\begin{itemize}
-    \item All scripts rely on filename pattern matching (\texttt{ch\textbackslash d\{2\}})
-    \item Existing files may be overwritten if names conflict
-    \item Ensure paths are correctly set before execution
-\end{itemize}
-
-\end{document}
+---
